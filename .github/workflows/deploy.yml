@@ -7,10 +7,10 @@ on:
 
 jobs:
   Deploy:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-20.04  # 버전 지정
     steps:
       - name: SSH(원격 접속)로 EC2에 접속하기
-        uses: appleboy/ssh-action@v1.0.3
+        uses: appleboy/ssh-action@v0.1.8  # 버전 변경
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USERNAME }}
