@@ -5,6 +5,7 @@ on:
     branches:
       - main
 
+
 jobs:
   Deploy:
     runs-on: ubuntu-20.04  # 버전 지정
