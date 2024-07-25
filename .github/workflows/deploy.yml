@@ -7,7 +7,7 @@ on:
 
 jobs:
   Deploy:
-    runs-on: ubuntu-20.04  # 버전 지정
+    runs-on: ubuntu-latest
     steps:
       - name: Github Repository 불러오기
         uses: actions/checkout@v4
