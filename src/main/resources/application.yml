@@ -1,0 +1,7 @@
+aws:
+  access-key: ABCDEF
+  secret-key: HIJALKJF
+
+db:
+  name: root
+  password: 1234
