@@ -12,6 +12,10 @@ permissions:
     group: ubuntu
 
 # S3로부터 파일 다운 받고 무엇을 할 지
+
+
+
+
 hooks:
   ApplicationStart:
     - location: scripts/start-server.sh
